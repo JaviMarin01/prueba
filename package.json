@@ -1,6 +1,9 @@
 {
     "name": "node-api-rest-example",
     "version": "2.0.0",
+    "engines": {
+        "node": ">=16.16.0"
+    },
     "dependencies": {
     "express": "^4.7.1",
     "method-override": "^2.1.2",
