@@ -11,7 +11,11 @@ app.use(cors());
 var router = express.Router();
 
 router.get("/", function (req, res) {
-  res.send("Hello World!");
+  res.json({
+    ok: true,
+    msg: 'obtenerUsuarios',
+    codigo: 200001
+  }); 
 });
 
 app.use(router);
